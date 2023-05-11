@@ -20,7 +20,7 @@
 
 ### **PROJECT ROADMAP**
 
-<img src ="https://github.com/akashhvyas/Job-Analytics-Instahyre/blob/main/Graphics/PowerPoint%20Presentation%20-%20Google%20Chrome%2012-05-2023%2002_38_06.png"  width="1190" height="400" />
+<img src ="https://github.com/akashhvyas/Job-Analytics-Instahyre/blob/main/Graphics/PowerPoint%20Presentation%20-%20Google%20Chrome%2012-05-2023%2002_38_06.png"  width="1000" height="340" />
 
 <br />
 
