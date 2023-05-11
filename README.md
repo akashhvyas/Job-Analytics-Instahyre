@@ -6,9 +6,13 @@
 
 <br />
 
+![alt text]((https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngitem.com%2Fmiddle%2FJmmboh_transparent-folder-icon-png-transparent-folder-icon-black%2F&psig=AOvVaw1tE_f_6wAkc0NhlOKtP8uG&ust=1683925369102000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJiDxP6U7v4CFQAAAAAdAAAAABAX))
+
+### Table of Contents 
+
 | Files/Folder | Description |
 | -----------  | ----------- |
-| Data Tables       | This folder contains cleaned csv data files       |
-| Power BI Dashboard    | This folder contains Power BI Dashboard file and PDF   |
-| SQL Insights | This folder contains mysql insights file |
-| Web Scraping | This folder contains Jupyter notebook file & Web driver used for Web Scraping.    |
+| Data Tables       | This folder contains cleaned csv data files           |
+| Power BI Dashboard    | This folder contains Power BI Dashboard file and PDF      |
+| SQL Insights | This folder contains mysql insights file     |
+| Web Scraping | This folder contains Jupyter notebook file & Web driver used for Web Scraping.   |
