@@ -48,7 +48,7 @@
 
 ### **MICROSOFT POWER BI DASHBOARD**
 
-<img src ="https://github.com/akashhvyas/Job-Analytics-Instahyre/blob/main/Graphics/Power%20BI%20Desktop.png"  width="1000" height="500" />
+<img src ="https://github.com/akashhvyas/Job-Analytics-Instahyre/blob/main/Graphics/Power%20BI%20Desktop.png"  width="1000" height="400" />
 
 <br />
 
