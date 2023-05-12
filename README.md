@@ -34,6 +34,29 @@
 ```
 <br />
 
-### SNAPSHOTS
+### **SNAPSHOTS**
 
 <img src ="https://github.com/akashhvyas/Job-Analytics-Instahyre/blob/main/Graphics/Presentation1%20-%20PowerPoint%2017-04-2023%2016_50_16.png"  width="688" height="414" />
+
+<br />
+<img src ="https://github.com/akashhvyas/Job-Analytics-Instahyre/blob/main/Graphics/Power%20BI%20Desktop%2017-04-2023%2016_46_31.png"  width="800" height="414" />
+
+<br />
+<img src ="https://github.com/akashhvyas/Job-Analytics-Instahyre/blob/main/Graphics/Power%20BI%20Desktop%2017-04-2023%2016_35_26.png"  width="750" height="330" />
+
+<br />
+
+### **MICROSOFT POWER BI DASHBOARD**
+
+<img src ="https://github.com/akashhvyas/Job-Analytics-Instahyre/blob/main/Graphics/Power%20BI%20Desktop.png"  width="1000" height="500" />
+
+<br />
+
+### **CONCLUSION**
+
+``` 
+1. Java, Python & Javascript are the most demanding programming languages in the market.
+2. Bangalore being the IT Hub offers highest number of job openings.
+3. Companies are opting for Work From Home (WFH) facilities.
+4. There are 3x more job opportunities for companies founded after year 2010.
+```
