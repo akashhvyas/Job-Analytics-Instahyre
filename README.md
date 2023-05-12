@@ -34,4 +34,6 @@
 ```
 <br />
 
-### 
+### SNAPSHOTS
+
+<img src ="https://github.com/akashhvyas/Job-Analytics-Instahyre/blob/main/Graphics/Presentation1%20-%20PowerPoint%2017-04-2023%2016_50_16.png"  width="688" height="414" />
