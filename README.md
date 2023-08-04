@@ -1,6 +1,18 @@
 # Instahyre Job Analysis
 
-####  This repository contains Job analysis of Instahyre (Job Portal). The project's objectives were to find the most demanding skills and job roles based on market trends. Also, to find out the locations with most job openings based on particular skills. Moreover, it aimed to reveal some of the dataset's hidden insights. The web scraping part was done in python using selenium library, formation of tables along with analysis of data was done using SQL and Data Visualization part was done using Microsoft Power BI.
+### **INTRODUCTION**
+
+####  Within this repository, you will discover a comprehensive Job analysis of Instahyre, a prominent Job Portal. The project focused on achieving the following objectives:
+
+1. Identifying the most sought-after skills and job roles by analyzing prevailing market trends.
+2. Pinpointing locations with the highest number of job openings related to specific skills.
+3. Unveiling hidden insights embedded within the dataset.
+
+#### To accomplish these goals, the project employed various methodologies:
+
+1. Web scraping was executed in Python using the Selenium library to collect relevant data.
+2. Data analysis and the creation of informative tables were conducted using SQL.
+3. Microsoft Power BI was employed for data visualization, enabling clear and insightful presentations of the findings.
 
 
 <br />
@@ -52,11 +64,21 @@
 
 <br />
 
+### **CHALLENGES FACED**
+
+1. Initially, data scraping using the BeautifulSoup library posed difficulties, leading us to switch to the Selenium Python library for better results.
+2. Frequent updates to the website required us to constantly modify our Python code accordingly.
+3. Data cleaning proved challenging due to the suboptimal structure of the acquired data.
+4. The scarcity of numerical data presented a challenge in generating meaningful insights.
+5. The process of splitting tables and creating a suitable schema presented further hurdles during the project.
+
+<br />
+
 ### **CONCLUSION**
 
 ``` 
-1. Java, Python & Javascript are the most demanding programming languages in the market.
-2. Bangalore being the IT Hub offers highest number of job openings.
-3. Companies are opting for Work From Home (WFH) facilities.
-4. There are 3x more job opportunities for companies founded after year 2010.
+1. The market demands Java, Python, and JavaScript as the most sought-after programming languages.
+2. Bangalore, known as the IT Hub, offers the highest number of job openings.
+3. A prevailing trend among companies is the adoption of Work From Home (WFH) facilities.
+4. Companies founded after the year 2010 present 3x more job opportunities compared to others.
 ```
