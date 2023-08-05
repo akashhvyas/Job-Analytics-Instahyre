@@ -131,12 +131,11 @@ pd.DataFrame(data,columns=['Job Title','Location','Company','Founded','Emp_count
 
 ### **LANGUAGES / TOOLS USED**
 
-``` 
 1. Microsoft Excel
 2. Python - Selenium Library
 3. SQL - MySQL
 4. Microsoft Power BI
-```
+
 <br />
 
 ### **SNAPSHOTS**
