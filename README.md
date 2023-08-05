@@ -168,9 +168,8 @@ pd.DataFrame(data,columns=['Job Title','Location','Company','Founded','Emp_count
 
 ### **CONCLUSION**
 
-``` 
+
 1. The market demands Java, Python, and JavaScript as the most sought-after programming languages.
 2. Bangalore, known as the IT Hub, offers the highest number of job openings.
 3. A prevailing trend among companies is the adoption of Work From Home (WFH) facilities.
 4. Companies founded after the year 2010 present 3x more job opportunities compared to others.
-```
