@@ -36,6 +36,99 @@
 
 <br />
 
+### **WEB SCRAPING**
+
+#### Importing libraries required for web scraping for dynamic websites.
+````
+import numpy as np
+import pandas as pd
+
+from selenium import webdriver
+from selenium.common.exceptions import NoSuchElementException
+from time import sleep
+````
+
+#### Url address for data extraction
+````
+url = 'https://www.instahyre.com/search-jobs/'
+````
+
+#### Initiating webdriver
+````
+browser = webdriver.Chrome('C:/Users/sheet/OneDrive/Documents/Akash/Web Scraping/chromedriver_win/chromedriver.exe')
+````
+
+#### Opening URL and maximizing window
+````
+browser.get(url)
+browser.maximize_window()
+````
+
+#### Creating a list for data storage
+````
+data = []
+browser.switch_to.window(browser.window_handles[0])
+````
+
+#### Running the code for Web Scraping
+````
+#Outer loop represents number of pages of website.
+
+for page in range(1,201):
+
+    
+    #Inner loop represents number of job posting on each page.
+    
+    for i in range(1,11):
+        try:
+            view_path = '(//*[@id="interested-btn"])[1]'
+            ii = str([i])
+            final =  view_path.replace('[1]',ii)
+            view_button = browser.find_element_by_xpath(final)
+            view_button.click()
+            browser.switch_to.window(browser.window_handles[1])
+            sleep(1)
+
+
+            #Extracting required information from each job posting.
+
+            title = browser.find_element_by_xpath('//*[@id="floating-header"]/div[1]/h1').text
+            location = browser.find_element_by_xpath('//*[@id="floating-header"]/div[1]/div/span[1]').text
+            company = browser.find_element_by_xpath('//*[@id="floating-header"]/div[1]/h2').text
+            founded = browser.find_element_by_xpath('//html/body/div[1]/div[2]/div[2]/div/div/div[1]/div[2]/div[1]').text
+            emp_count = browser.find_element_by_xpath('//*[@id="employer-profile"]/div[2]/div/div/div[1]/div[2]/div[2]').text
+            skills = browser.find_element_by_xpath('//*[@id="job-skills-description"]').text
+            hr = browser.find_element_by_xpath('//*[@id="employer-profile"]/div[2]/div/div/div[3]/div[1]/div/span/span[1]').text
+
+            data.append([title,location,company,founded,emp_count,skills,hr])
+            
+        except NoSuchElementException:
+            pass
+        
+        
+        #Closing the browser and switching back to parent window.
+        
+        browser.close()
+        browser.switch_to.window(browser.window_handles[0])
+        
+        
+    #Navigating to next page.
+        
+    next_page = browser.find_element_by_xpath('//*[@id="job-function-page"]/div[2]/div/div[1]/div[1]/div[11]/li[12]').click()
+    sleep(1)
+````
+
+#### Storing data as DataFrame
+````
+pd.DataFrame(data,columns=['Job Title','Location','Company','Founded','Emp_count','Skills','HR'])
+````
+
+#### Exporting Data as CSV File
+````
+pd.DataFrame(data,columns=['Job Title','Location','Company','Founded','Emp_count','Skills','HR']).to_csv("Test_3.csv",index=False)
+````
+
+
 ### **LANGUAGES / TOOLS USED**
 
 ``` 
